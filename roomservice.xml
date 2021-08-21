@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-   <remote name="lzgmc" fetch="https://github.com/lzgmc" />
-   <!-- <project path="device/lenovo/jd2019" name="device_lenovo_jd2019" revision="eleven" remote="lzgmc" /> -->
-   <project path="device/lenovo/jd2019" name="jd2019-common" revision="eleven" remote="lzgmc" />
-   <project path="device/lenovo/sdm710-common" name="device_lenovo_sdm710-common" revision="eleven" remote="lzgmc" />
-   <!-- <project path="kernel/lenovo/jd2019" name="android_kernel_jd2019" revision="master" remote="lzgmc" /> -->
-   <project path="vendor/lenovo/jd2019" name="vendor_lenovo_jd2019" revision="eleven" remote="lzgmc" />
-   <project path="vendor/lenovo/kunlun2" name="vendor_lenovo_kunlun2" revision="eleven" remote="lzgmc" />
+  <project name="lenovo-sdm710/device_lenovo_jd2019" path="device/lenovo/jd2019" remote="github" revision="eleven-fw" />
+  <project name="lenovo-sdm710/device_lenovo_sdm710-common" path="device/lenovo/sdm710-common" remote="github" revision="eleven" />
+  <project name="lenovo-sdm710/vendor_lenovo_jd2019" path="vendor/lenovo/jd2019" remote="github" revision="eleven" />
+  <project name="lenovo-sdm710/vendor_lenovo_sdm710-common" path="vendor/lenovo/sdm710-common" remote="github" revision="eleven" />
+  <project name="victor10520/vendor_lenovo-firmware" path="vendor/lenovo-firmware" remote="gitlab" revision="eleven" />
+  <project clone-depth="1" name="lzgmc/kernel_lenovo_sdm710" path="kernel/lenovo/sdm710" revision="eleven" remote="github"/>
 </manifest>
